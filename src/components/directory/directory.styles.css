@@ -1,7 +1,14 @@
 .directory-container {
     width: 100%;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
     gap: 20px;
+}
+
+.directory-container h3 {
+    color: rgb(255, 0, 0);
 }
