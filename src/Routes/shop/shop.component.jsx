@@ -8,17 +8,15 @@ function Shop() {
         <div key={category.title} className="category-container">
           <h2>{category.title.toUpperCase()}</h2>
           <div className="item-container">
-            {
-              category.items.map((item) =>(
-                <div key={item.id}>
-                  <PokemonCard pokemonName={item.item}/>
-                  <span>${item.price}</span>
-                </div>
-              ))
-            }
+            {category.items.map((item) => (
+              <div key={item.id}>
+                <PokemonCard pokemonName={item.item} />
+                <span>${item.price}</span>
+              </div>
+            ))}
           </div>
         </div>
-      ))}{" "}
+      ))}
     </div>
   );
 }

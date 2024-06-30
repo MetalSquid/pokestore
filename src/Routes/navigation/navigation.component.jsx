@@ -1,8 +1,15 @@
+import { ReactComponent as HambergerSVG } from '../../assets/hamburger-menu.svg';
+import './navigation.styles.css';
+
 
 function Navigation() {
     return (  
-<div>
-    <h1>I am the Navigation</h1>
+<div className='navigation-container'>
+
+      <div className="hamburger-icon-container">
+        <HambergerSVG />
+      </div>
+   
 </div>
     );
 }
