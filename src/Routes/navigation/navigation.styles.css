@@ -1,8 +1,13 @@
 .navigation-container {
-  padding-bottom: 3%;
+  padding: 1%;
   margin: auto;
+  background-color: gray;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+  
 }
 
 .hamburger-icon-container {
-  width: 30px;
+  width: 10%;
+  margin: 3%;
 }

@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import { categories } from "../../CATEGORY_DATA";
 import DirectoryItem from "../directory-item/directory-item.component";
 import './directory.styles.css'
@@ -9,6 +10,7 @@ function Directory() {
         {categories.map((category) => (
             <DirectoryItem key={category.key} category={category} />
         ))}
+        <Outlet />
     </div> );
 }
 
