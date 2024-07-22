@@ -6,13 +6,14 @@ import { ReactComponent as PikachuSVG } from './assets/Pikachu.svg';
 import { ReactComponent as DragoniteSVG } from './assets/dragonite.svg';
 import { ReactComponent as GengarSVG } from './assets/gengar.svg';
 import { ReactComponent as MewtwoSVG } from './assets/mewtwo.svg';
+import { ReactComponent as WaterSignSVG } from './assets/Pokémon_Water_Type_Icon.svg';
 
 
 export const categories = [
   {
     id: 1,
     title: "water",
-    component: <VaporeonSVG className='background-image' />,
+    component: <WaterSignSVG className='background-image' />,
     route: "/water",
   },
   {

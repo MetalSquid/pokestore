@@ -1,7 +1,7 @@
 .directory-container {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     text-align: center;
 }
@@ -9,4 +9,9 @@
 .directory-container h3 {
     color: red;
     margin: 1vh;
+}
+
+.directory-container li {
+    display: flex;
+    justify-content: center;
 }

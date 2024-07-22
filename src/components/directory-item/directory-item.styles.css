@@ -7,6 +7,7 @@
     height: 423px;
     justify-content: space-between;
     flex-direction: column;
+    align-items: center;
     background-color:aliceblue;
     border: black solid ;
 

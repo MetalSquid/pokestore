@@ -1,6 +1,9 @@
+import Login from "../../components/firebaseUI/firebaseUI.component";
+
 function Authentication() {
-    return ( <div>
-       <h1>I am the auth page</h1>
+    return ( 
+    <div className="auth-container-div">
+     <Login />
     </div> );
 }
 

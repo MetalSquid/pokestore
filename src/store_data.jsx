@@ -1,3 +1,7 @@
+
+
+
+
 export const STORE_DATA = [
   {
     title: "water",
